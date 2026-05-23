@@ -12,7 +12,7 @@ import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
-import { AlertTriangle, Box, Shield, ShieldCheck, Smartphone, Zap } from "lucide-react";
+import { Shield } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -105,6 +105,8 @@ export default function LandingPage() {
       names={["TeknoSecure", "SafeGuard Pro", "VisionGuard", "SmartLock", "DefendTech"]}
       title="İş Ortaklarımız"
       description="Güvenilir markalarla en iyi teknolojik donanımları projelerimize dahil ediyoruz."
+      textboxLayout="split"
+      useInvertedBackground={false}
     />
   </div>
 
